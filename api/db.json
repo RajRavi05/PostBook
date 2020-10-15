@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "Testing",
+      "name": "Raj Ravi 🧑",
+      "body": "This is for testing purpose",
+      "id": 1
+    },
+    {
+      "title": "The love",
+      "name": "raj",
+      "body": "aaa",
+      "id": 2
+    }
+  ]
+}

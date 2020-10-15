@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>PostBook</title>
+</head>
+<body>
+    <!-- header part -->
+    <header id="head">
+        <nav id="navbar">
+            <div class="logo">
+                <img src="logo-3.png" alt="logo">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search post" id="search-item" class="search-input">
+                <button type="submit" class="search-icon" id="search-icon"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Post input part -->
+    <section id="post-input">
+        <div class="card" id="card-main">
+            <div class="card-body-main">
+                <h1 class="primary-text">Post Something...</h1>
+                <form id="form-input">
+                    <div class="form-group">
+                        <input type="text" id="user-name" placeholder="Your Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="title" placeholder="Title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea cols="22" rows="5" id="body" placeholder="What's on your mind?" class="form-control"></textarea>
+                    </div>
+                    <input type="hidden" id="id" value="">
+                    <button class="btn-1" id="post-submit">Post It !</button>
+                    <span class="form-end"></span>   
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="searchContent">
+        <h4 class="tertiary-text">Search Content 🔍</h4>
+        <div class="searchItems">
+
+        </div>
+    </section>
+
+    <!-- heading -->
+    <h2 class="secondary-text">New Feeds Here 📜</h2>
+
+    <!-- New Feeds -->
+    <section id="feeds">
+        
+        <!-- <h2 class="secondary-text">New Feeds Here 📜</h2>
+        <div class="card-post" id="card-post">
+            <div class="card-body-post">
+                <div class="post-title">
+                    <h4 class="title-text" id="post-title">Title</h4>
+                </div>
+                <div class="post-user-name">
+                    <p class="user-text" id="name-user"><span class="name">Sanu</span> says...</p>
+                </div>
+                <div class="post-content" id="post-body">
+                    <p class="post-cont" id="post-cont">Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Est iste ipsa recusandae sit repellendus nostrum ullam.  Obcaecati quia soluta atque minima. Voluptas non  quibusdam ex corrupti nihil excepturi, minus optio?</p>
+                </div>
+                <div class="options" id="option">
+                    <a href="#" class="edit-btn" id="edit">
+                        <i class="fas fa-edit"></i>
+                    <a>
+                    
+                    <a href="#" class="remove" id="delete">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>    
+                </div>
+             </div>   
+        </div> -->
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <p class="foot">&copy; ALL Reserved <span>PostBook </span>2020. </p>
+    </footer>
+
+    <script src="build/app.bundle.js"></script>
+</body>
+</html>
+
